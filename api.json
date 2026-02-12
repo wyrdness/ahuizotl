@@ -1,0 +1,416 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/ahuizotl",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "ahuizotl",
+    "name": "Ahuizotl",
+    "aliases": [
+      {
+        "name": "Ahuitzotl",
+        "language": "Nahuatl",
+        "region": "Mexico",
+        "meaning": "spiny aquatic thing"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Water Monster",
+    "tags": [
+      "aztec",
+      "water-creature",
+      "mexican-mythology",
+      "lake-monster",
+      "dangerous",
+      "mythology"
+    ],
+    "status": "mythological",
+    "description": {
+      "summary": "An Aztec mythological water creature with a dog-like body, monkey-like hands, and a distinctive hand at the end of its tail. The ahuizotl drowns victims near water and drags them beneath the surface, serving the rain god Tlaloc.",
+      "full": "The ahuizotl is a fearsome water creature from Aztec mythology, described as having the body of a medium-sized dog with sleek, waterproof fur, monkey-like hands on its limbs, and most distinctively, a human-like hand at the end of its long tail. According to Aztec belief, the ahuizotl inhabits lakes and rivers, particularly in the Texcoco lake region of the Valley of Mexico. It uses its tail-hand to grab unsuspecting people near the water's edge, dragging them down to drown. The creature was said to prefer victims with shiny features, particularly teeth and eyes. In Aztec cosmology, the ahuizotl served Tlaloc, the rain god, and those it drowned were considered sacrifices to this deity. Their bodies would wash up on shore days later, bloated and with missing eyes and nails. The ahuizotl appears in Aztec codices and was invoked as a water safety warning in Aztec culture. While no modern sightings are claimed, the ahuizotl remains an important figure in Mexican folklore and cultural heritage."
+    },
+    "etymology": {
+      "origin": "From Nahuatl 'atl' (water) and 'huitzotl' (spiny), or possibly 'ahuizotl' meaning 'spiny aquatic thing'",
+      "meaning": "Spiny water creature or water opossum",
+      "first_use": "Pre-Columbian Aztec era"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Water Monster",
+      "subtype": "Mythological Beast",
+      "variant": "Aztec"
+    },
+    "related_phenomena": [
+      {
+        "id": "kappa",
+        "name": "Kappa",
+        "relationship": "similar",
+        "description": "Japanese water demon that drowns victims"
+      },
+      {
+        "id": "water-demons",
+        "name": "Water Demons",
+        "relationship": "category",
+        "description": "Broader category of malevolent aquatic entities"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.5,
+        "max": 1.2,
+        "unit": "meters",
+        "confidence": "low"
+      },
+      "weight": {
+        "min": 20,
+        "max": 60,
+        "unit": "kilograms",
+        "confidence": "low"
+      },
+      "coloration": [
+        "dark brown",
+        "black",
+        "sleek fur"
+      ],
+      "features": [
+        {
+          "feature": "Body",
+          "description": "Dog-like body, medium-sized, sleek waterproof fur",
+          "frequency": "always"
+        },
+        {
+          "feature": "Hands",
+          "description": "Monkey-like hands on limbs",
+          "frequency": "always"
+        },
+        {
+          "feature": "Tail-hand",
+          "description": "Human-like hand at the end of long tail, primary weapon",
+          "frequency": "always"
+        },
+        {
+          "feature": "Ears",
+          "description": "Small, pointed ears",
+          "frequency": "common"
+        },
+        {
+          "feature": "Teeth",
+          "description": "Sharp teeth suitable for aquatic predator",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Chimeric creature combining dog body, monkey hands, and distinctive tail-hand. Adapted for aquatic ambush predation."
+    },
+    "abilities": [
+      {
+        "ability": "Aquatic mastery",
+        "description": "Excellent swimmer, can remain submerged for long periods",
+        "frequency": "always",
+        "evidence_level": "mythology"
+      },
+      {
+        "ability": "Tail-hand grasping",
+        "description": "Uses hand at end of tail to grab victims",
+        "frequency": "always",
+        "evidence_level": "mythology"
+      },
+      {
+        "ability": "Drowning victims",
+        "description": "Drags people underwater to drown them",
+        "frequency": "common",
+        "evidence_level": "mythology"
+      },
+      {
+        "ability": "Stealth",
+        "description": "Ambushes victims from beneath water surface",
+        "frequency": "common",
+        "evidence_level": "mythology"
+      }
+    ],
+    "behavior": {
+      "activity_period": "any",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "lakes",
+        "rivers",
+        "waterways"
+      ],
+      "diet": "Unknown (mythological being)",
+      "patterns": [
+        "Lurks near water's edge",
+        "Grabs victims with tail-hand",
+        "Drags victims underwater to drown",
+        "Prefers victims with shiny features (teeth, eyes)",
+        "Serves Tlaloc the rain god",
+        "Bodies of victims wash ashore bloated and mutilated"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Historically associated with the lakes and waterways of the Valley of Mexico, particularly Lake Texcoco. Aztec mythological creature without modern sighting claims.",
+      "continents": ["North America"],
+      "countries": ["Mexico"],
+      "regions": [
+        "Valley of Mexico",
+        "Lake Texcoco region (historical)",
+        "Central Mexico"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Lake Texcoco",
+        "location": {
+          "description": "Ancient lake in Valley of Mexico (now largely drained)",
+          "country": "Mexico",
+          "region": "Mexico City area",
+          "coordinates": {
+            "latitude": 19.5,
+            "longitude": -99.0,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": "mythological",
+        "peak_period": "Pre-Columbian Aztec era",
+        "notes": "Primary habitat in Aztec accounts"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-Columbian",
+        "circa": true,
+        "source": "Aztec codices and oral traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Aztec Empire (1300s-1521)",
+          "description": "Established in Aztec mythology and religious practices"
+        }
+      ],
+      "seasonal_patterns": "No specific seasonal patterns recorded"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "The ahuizotl originates from Aztec mythology and religious cosmology. It represents the dangers of water and serves as a servant of Tlaloc, the rain and water god. The creature embodies Aztec beliefs about death, sacrifice, and the power of natural forces.",
+      "earliest_accounts": "Pre-Columbian Aztec codices, including the Florentine Codex and other pictographic manuscripts documenting Aztec natural history and mythology.",
+      "folklore_connections": "Connected to broader Mesoamerican water creature traditions and Tlaloc worship. Similar to other water monsters in world mythology that drown humans."
+    },
+    "timeline": [
+      {
+        "date": "Pre-1521",
+        "event": "Aztec Empire mythology",
+        "significance": "Ahuizotl established in Aztec cosmology and religious practices",
+        "source": "Aztec codices and oral traditions"
+      },
+      {
+        "date": "1500s",
+        "event": "Spanish documentation",
+        "significance": "Spanish chroniclers document ahuizotl in ethnographic accounts of Aztec culture",
+        "source": "Florentine Codex, other colonial sources"
+      },
+      {
+        "date": "1500s-present",
+        "event": "Cultural continuation",
+        "significance": "Ahuizotl remains part of Mexican folklore and cultural heritage",
+        "source": "Folklore collections, cultural studies"
+      }
+    ],
+    "modern_era": "The ahuizotl exists today as a mythological creature in Mexican cultural heritage. It appears in folklore collections, educational materials about Aztec culture, and occasionally in popular culture. No modern sightings are claimed. The creature serves as an example of Aztec natural history beliefs and water safety folklore."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": "mythological",
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Pre-Columbian",
+        "latest": "Pre-Columbian"
+      }
+    },
+    "notable": [
+      {
+        "id": "ahuizotl-codex-accounts",
+        "name": "Aztec Codex Descriptions",
+        "date": {
+          "value": "Pre-1521",
+          "precision": "era"
+        },
+        "location": {
+          "description": "Valley of Mexico, Lake Texcoco",
+          "country": "Mexico",
+          "region": "Central Mexico"
+        },
+        "witnesses": {
+          "count": "cultural",
+          "types": ["Aztec culture"],
+          "credibility_factors": ["Codex documentation", "Cultural significance"]
+        },
+        "description": "Aztec codices describe the ahuizotl as a water-dwelling creature with a dog's body, monkey hands, and a hand at the end of its tail. It was believed to drown people near water, serving Tlaloc. Victims were considered sacrifices to the rain god.",
+        "conditions": {
+          "weather": "Various",
+          "visibility": "Various",
+          "time_of_day": "Various",
+          "duration": "Mythological accounts"
+        },
+        "evidence": [
+          "Aztec codices",
+          "Spanish colonial chronicles",
+          "Cultural traditions"
+        ],
+        "credibility": {
+          "rating": "mythological",
+          "factors": [
+            "Well-documented in Aztec culture",
+            "No modern sightings",
+            "Religious/mythological context",
+            "Cultural significance"
+          ],
+          "notes": "The ahuizotl is a mythological creature with deep cultural significance in Aztec tradition. It represents religious beliefs rather than cryptozoological claims."
+        },
+        "sources": [
+          "Florentine Codex",
+          "Aztec pictographic manuscripts",
+          "Spanish colonial ethnographies"
+        ],
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": [],
+    "cultural": [
+      {
+        "type": "codices",
+        "description": "Aztec pictographic manuscripts depicting ahuizotl",
+        "status": "historical"
+      },
+      {
+        "type": "oral_tradition",
+        "description": "Aztec and post-conquest folklore maintaining ahuizotl stories",
+        "status": "ongoing"
+      }
+    ]
+  },
+
+  "theories": {
+    "paranormal": [],
+    "scientific": [
+      {
+        "name": "Mythological water safety folklore",
+        "description": "Ahuizotl represents cultural mechanism to teach water safety and caution around lakes and rivers",
+        "proponents": ["Anthropologists", "Folklorists"],
+        "evidence_cited": ["Behavioral function", "Cultural context", "Religious significance"]
+      },
+      {
+        "name": "Symbolism for drowning deaths",
+        "description": "Creature mythologically explains accidental drownings and reinforces Tlaloc worship",
+        "proponents": ["Religious scholars"],
+        "evidence_cited": ["Connection to Tlaloc", "Sacrifice narrative", "Cultural practices"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Pure mythology",
+        "description": "Entirely mythological creature with no basis in real animal sightings",
+        "proponents": ["Mainstream scholars"],
+        "evidence_cited": ["Fantastical features", "Religious context", "No modern sightings"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Water safety warnings invoking ahuizotl",
+        "Tlaloc worship and water-related sacrifices",
+        "Stories of drowning victims taken by ahuizotl"
+      ],
+      "stories": [
+        "Victims grabbed by tail-hand while fishing or washing",
+        "Bodies returned by water, bloated and missing eyes/nails",
+        "Ahuizotl as servant of Tlaloc collecting sacrifices"
+      ],
+      "beliefs": "The ahuizotl was believed to be a real creature serving the rain god Tlaloc. Deaths by drowning were sometimes attributed to the ahuizotl, and victims were considered blessed sacrifices."
+    },
+    "indigenous": {
+      "cultures": [
+        "Aztec (Mexica)",
+        "Nahua peoples"
+      ],
+      "significance": "The ahuizotl represents Aztec understanding of water's dangers and divine power. It embodies the intersection of natural hazards and religious cosmology.",
+      "sensitivity_note": "⚠️ AZTEC RELIGIOUS TRADITION: The ahuizotl is part of Aztec spiritual and religious heritage. Approach with respect for Indigenous Mesoamerican cultural traditions.",
+      "respect_guidelines": "Recognize ahuizotl as part of serious religious cosmology, not entertainment. Respect Aztec cultural heritage and descendant communities."
+    },
+    "popular_culture": {
+      "literature": [
+        "Mexican folklore collections",
+        "Aztec mythology references"
+      ],
+      "film_tv": [
+        "Educational programs on Aztec culture"
+      ],
+      "other": [
+        "Cultural heritage education",
+        "Museum exhibits on Aztec mythology"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Various anthropologists and historians",
+        "affiliation": "Mexican and international universities",
+        "contribution": "Documentation and analysis of Aztec mythology",
+        "period": "1900s-present"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "Historical and anthropological research into Aztec mythology and cultural practices."
+  },
+
+  "sources": [
+    {
+      "id": "florentine-codex",
+      "type": "historical_document",
+      "title": "Florentine Codex",
+      "authors": ["Bernardino de Sahagún"],
+      "date": "1500s",
+      "description": "Major source documenting Aztec culture including ahuizotl"
+    }
+  ]
+}
