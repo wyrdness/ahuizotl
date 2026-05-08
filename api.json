@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ahuizotl",
     "maintainers": [
       {
@@ -16,71 +16,130 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ahuizotl",
     "name": "Ahuizotl",
-    "aliases": [],
-    "category": "|_BROADER_CATEGORY_OF_MALEVOLENT_AQUATIC_ENTITIES_|",
-    "subcategory": "| Description | Status |",
+    "aliases": [
+      { "name": "āhuitzotl", "language": "Classical Nahuatl", "meaning": "spiny aquatic thing" },
+      { "name": "Water dog", "language": "English (descriptive)" }
+    ],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Aquatic predator / water demon",
     "tags": [
-      "for-drowning-deaths"
+      "aztec",
+      "nahua",
+      "mexico",
+      "lake-texcoco",
+      "water-creature",
+      "florentine-codex",
+      "tlaloc",
+      "mesoamerica"
     ],
     "status": "documented",
     "description": {
-      "summary": "The ahuizotl is a fearsome water creature from Aztec mythology, described as having the body of a medium-sized dog with sleek, waterproof fur, monkey-like hands on its limbs, and most distinctively, a human-like hand at the end of its long tail.",
-      "full": "The ahuizotl is a fearsome water creature from Aztec mythology, described as having the body of a medium-sized dog with sleek, waterproof fur, monkey-like hands on its limbs, and most distinctively, a human-like hand at the end of its long tail. According to Aztec belief, the ahuizotl inhabits lakes and rivers, particularly in the Texcoco lake region of the Valley of Mexico. It uses its tail-hand to grab unsuspecting people near the water's edge, dragging them down to drown. The creature was said to prefer victims with shiny features, particularly teeth and eyes. In Aztec cosmology, the ahuizotl served **Tlaloc**, the rain god, and those it drowned were considered sacrifices to this deity. ⚠️ **CULTURAL SENSITIVITY**: The ahuizotl is part of Aztec spiritual and religious heritage. Approach with respect for Indigenous Mesoamerican cultural traditions."
+      "summary": "The Ahuizotl is a small, dog-sized water creature of Aztec mythology with monkey-like hands on its limbs and a fifth, hand-tipped tail; it is said to live in deep pools and to drown unwary fishermen, taking their eyes, nails, and teeth.",
+      "full": "The Ahuizotl (from Classical Nahuatl āhuitzotl, 'spiny aquatic thing') is a legendary creature of Mexica (Aztec) mythology described in book 11 of the Florentine Codex compiled by the Franciscan friar Bernardino de Sahagún in the 16th century. It is depicted as a small black, smooth-furred, dog-sized animal with small pointed ears, hands resembling those of a monkey or raccoon on each limb, and a long prehensile tail that ends in a human-like hand. The Ahuizotl was said to inhabit the deep pools and caverns of the lakes around the Valley of Mexico, especially Lake Texcoco. It hunted by causing fish and frogs to leap to the surface, drawing fishermen to the water's edge, or by mimicking the cry of a human infant. When a victim came near, it seized them with the hand at the tip of its tail and dragged them under, eating their eyes, nails, and teeth and leaving the rest of the body. Aztec tradition treated such drownings as offerings to the rain-god Tlaloc, with the dead taken to his paradise of Tlalocan. The creature lent its name to the late-fifteenth-century Mexica ruler Ahuitzotl, eighth tlatoani of Tenochtitlan."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Classical Nahuatl, from ā- ('water') and huitzotl (related to 'spiny' or 'thorny aquatic creature').",
+      "meaning": "'Spiny aquatic thing' or 'water dog'.",
+      "first_use": "16th century, in Sahagún's Historia general de las cosas de la Nueva España (the Florentine Codex), book 11."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_BROADER_CATEGORY_OF_MALEVOLENT_AQUATIC_ENTITIES_|",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "Aquatic predator",
+      "subtype": "Water demon / fisherman's hazard",
+      "variant": "Mesoamerican (Mexica/Nahua)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "tlaloc", "name": "Tlaloc", "relationship": "related", "description": "Aztec rain-god to whose paradise (Tlalocan) the Ahuizotl was said to deliver drowned victims" },
+      { "id": "kelpie", "name": "Kelpie", "relationship": "similar", "description": "Scottish water spirit that lures victims to drown" },
+      { "id": "underwater-panther", "name": "Underwater Panther (Mishipeshu)", "relationship": "similar", "description": "Great Lakes Indigenous water-creature that drowns travellers" },
+      { "id": "nguruvilu", "name": "Nguruvilu", "relationship": "similar", "description": "Mapuche aquatic fox-snake creature with a hand-tipped tail" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.4, "max": 0.6, "unit": "meters", "confidence": "low" },
+      "coloration": ["black", "dark grey, marbled"],
+      "features": [
+        { "feature": "Dog-like body", "description": "Body the size and shape of a small dog, with small pointed ears.", "frequency": "always" },
+        { "feature": "Monkey-like hands", "description": "Forelimbs and hindlimbs end in dexterous hands resembling those of a monkey or raccoon.", "frequency": "always" },
+        { "feature": "Hand-tipped prehensile tail", "description": "A long tail ending in a fifth human-like hand used to seize victims.", "frequency": "always" },
+        { "feature": "Smooth, waterproof fur", "description": "Sleek, slippery, marbled black-and-grey fur.", "frequency": "common" }
+      ],
+      "morphology": "Small black aquatic mammal-like creature with five hands (four on the limbs, one at the tail's tip)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Tail-grasping", "description": "Uses the hand at the end of its tail to grab victims and drag them under water.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Infant cry mimicry", "description": "Cries like a human baby to lure people to the water's edge.", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Driving fish and frogs ashore", "description": "Causes fish and frogs to leap to the surface, drawing fishermen close.", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["deep lake pools", "caverns and underwater grottoes", "shores of Lake Texcoco and the lakes of the Valley of Mexico"],
+      "diet": "Said to feast specifically on the eyes, nails, and teeth of drowned victims, leaving the rest of the body.",
+      "patterns": [
+        "Preys on fishermen and bathers",
+        "Associated with sudden, mysterious drownings",
+        "Drowned victims are believed to be claimed by Tlaloc"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Lakes and waterways of the Valley of Mexico, especially the lake system around the Aztec capital Tenochtitlan, with Lake Texcoco as the most-cited locale.",
+      "continents": ["North America"],
+      "countries": ["Mexico"],
+      "regions": ["Valley of Mexico", "Lake Texcoco", "central Mexican lake system"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Lake Texcoco",
+        "location": {
+          "description": "Former large lake of the Valley of Mexico, now largely drained; centre of pre-Columbian Aztec civilisation",
+          "country": "Mexico",
+          "region": "Valley of Mexico",
+          "coordinates": { "latitude": 19.4833, "longitude": -99.0167 }
+        },
+        "peak_period": "Pre-conquest (15th–16th centuries)",
+        "notes": "The Ahuizotl is most often associated with the lakes around Tenochtitlan."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "16th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Bernardino de Sahagún, Florentine Codex, book 11 (compiled c. 1545–1590)"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-conquest", "description": "Active in Mexica oral tradition before Spanish contact" },
+        { "period": "16th century", "description": "Documentation by Sahagún and other Franciscan ethnographers" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Mexica (Aztec) and broader Nahua tradition of the central Mexican lake system; tied to the cult of Tlaloc and the cosmology of water deaths.",
+      "earliest_accounts": "16th-century Franciscan ethnography, especially the Florentine Codex of Bernardino de Sahagún.",
+      "folklore_connections": "Part of an Americas-wide complex of water-creature drowning myths (kelpies, Nguruvilu, Mishipeshu, etc.) and integrated into the Aztec religious view of drowning as a passage to Tlalocan."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1486", "event": "Ahuitzotl, eighth tlatoani of Tenochtitlan, takes the throne and bears the creature's name", "significance": "Royal use of the Ahuizotl name as emblem", "source": "Standard Aztec king-lists; Wikipedia: Ahuitzotl" },
+      { "date": "1577", "event": "Bernardino de Sahagún completes the manuscript known as the Florentine Codex, including the Ahuizotl in book 11", "significance": "Earliest detailed European-language description of the creature", "source": "Sahagún, Historia general de las cosas de la Nueva España" }
+    ],
+    "modern_era": "The Ahuizotl is studied today within Mesoamerican religion and ethnozoology. Modern scholars often interpret it as a mythologised water opossum (Chironectes minimus), whose dexterous hands, marbled black-and-grey fur, and aquatic habits match many features of the description."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +150,119 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ahuizotl-evidence-florentine-codex",
+        "type": "ethnographic codex",
+        "name": "Florentine Codex, book 11",
+        "date": "16th century",
+        "description": "Bernardino de Sahagún's 12-book Historia general de las cosas de la Nueva España, compiled in the second half of the 16th century, includes a description and illustration of the Ahuizotl in its book on natural history.",
+        "status": "verified",
+        "analysis": "Primary 16th-century ethnographic source, recorded from Nahua informants by a Franciscan ethnographer.",
+        "source": "Sahagún, Florentine Codex, book 11"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Tlaloc's emissary",
+        "description": "Within Aztec religion, the Ahuizotl is a real water-being that delivers drowned souls to Tlaloc's paradise of Tlalocan.",
+        "proponents": ["Mexica tradition (folk and priestly)"],
+        "evidence_cited": ["Ritual treatment of drowning deaths in Aztec sources"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Mythologised water opossum",
+        "description": "Modern zoologists and Mesoamerican scholars frequently identify the Ahuizotl with the water opossum (Chironectes minimus), an aquatic marsupial with prehensile tail, dexterous hand-like forelimbs, and marbled black-and-grey waterproof fur.",
+        "proponents": ["Various Mesoamerican zoologists and historians cited in Wikipedia and Mexicolore"],
+        "evidence_cited": ["Anatomical match between Chironectes and Sahagún's description", "Co-occurrence of the species' range and Aztec lake habitat"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Folklore explanation for drownings",
+        "description": "Anthropologists treat the Ahuizotl as a culturally specific framework for explaining unexpected drownings, especially of fishermen, in the lakes around Tenochtitlan.",
+        "proponents": [],
+        "evidence_cited": ["Concentration of accounts on fishermen", "Integration with Tlaloc cult"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Nahua water-creature tradition",
+        "Aztec cult of Tlaloc and the dead by drowning"
+      ],
+      "stories": [
+        "Florentine Codex tale of the Ahuizotl seizing a fisherman and being recovered as a corpse with eyes, nails, and teeth removed"
+      ],
+      "beliefs": "Drowning victims associated with the Ahuizotl were considered chosen by Tlaloc and given an honoured passage to Tlalocan."
+    },
+    "indigenous": {
+      "cultures": ["Mexica (Aztec)", "Nahua"],
+      "significance": "Integrated with the worship of Tlaloc and the broader Mexica cosmology of water and the dead.",
+      "sensitivity_note": "Sahagún's account is filtered through Spanish Franciscan religious framing; Indigenous Nahua perspectives should be foregrounded where possible.",
+      "respect_guidelines": "When writing about the Ahuizotl, distinguish 16th-century missionary recording from later popular reuse, and credit Nahua informants where they are named in primary sources."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Ahuizotl appears in Mexican children's folklore collections and in fantasy and horror fiction"
+      ],
+      "film_tv": [
+        "Featured in Mexican-themed monster documentaries and in the animated film The Book of Life (2014, as a background creature)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Used as iconography in modern Mexican design and in branding (e.g., Cervecería Ahuizotl)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Bernardino de Sahagún", "affiliation": "Order of Friars Minor (Franciscans)", "contribution": "Compiler of the Florentine Codex; primary 16th-century recorder of the Ahuizotl tradition", "period": "16th century" }
+    ],
+    "organizations": [
+      { "name": "Mexicolore", "url": "https://www.mexicolore.co.uk/", "focus": "Educational resource on Mesoamerican cultures including detailed coverage of the Ahuizotl" }
+    ],
+    "ongoing_studies": "Active study within Mesoamerican religion, ethnozoology, and the analysis of the Florentine Codex; no active cryptid investigation."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-ahuizotl",
+      "type": "website",
+      "title": "Ahuizotl (mythology)",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ahuizotl_(mythology)",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "mexicolore-ahuizotl",
+      "type": "website",
+      "title": "The Ahuizotl",
+      "publication": "Mexicolore",
+      "url": "https://www.mexicolore.co.uk/aztecs/aztefacts/ahuizotl",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "sahagun-florentine-codex",
+      "type": "book",
+      "title": "Historia general de las cosas de la Nueva España (Florentine Codex), book 11",
+      "authors": ["Bernardino de Sahagún"],
+      "date": "16th century",
+      "notes": "Primary 16th-century ethnographic source containing the canonical description of the Ahuizotl."
+    }
+  ]
 }
